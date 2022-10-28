@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
+body{
+    background:linear-gradient(#fef1c0, white);
+    padding: 150px 0px 0px 150px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.home{
+    background: cover;
+    padding: 150px 0 150px 0;
+}
+
+.prices{
+    background: cover;
+    padding: 0 0 150px 0;
+}
+
+.tagline{
+    color: brown;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.tastycakes-text{
+    color: brown;
+    text-decoration: none;
+}
+
+.home-img{
+    float: right;
+    width: 430px;
+    margin-right: 0px;
+}
+
+img{
+    float: right;
+    width: 300px;
+}
+
+.cake1{
+    float: right;
+    width: 300px;
+    margin-right: 150px;
+}
+
+.discription{
+    margin-right: 0;
+}
+
+.prices{
+    margin-top: 350px;
+}
+
+.pricetopic{
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 150px;
+    
+}
+
+table{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    padding-left: 70px;
+}
+
+td, th{
+    text-align: left;
+    padding: 16px;
+}
+
+.list1{
+    padding-bottom: 200px;
+}
+
+.listitems1{
+    padding: 10px;
+}
+
+.productsimg{
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+}
+
+.productsimg2{
+    float: left;
+    width: 270px;
+    height: 300px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.call_us{
+    float: left;
+    margin-right: 150px;
+}
+
+.visit_us{
+    float: left;
+    margin-right: 150px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background-color: rgb(251, 193, 48);
+    color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* For small devices */
+@media screen and (max-width: 350px){
+    body{
+        padding: 0;
+    }
+    .home{
+        padding: 0px;
+        margin: 0;
+    }
+    .home-img{
+        visibility: hidden;
+        margin-top: 0;
+    }
+    .products{
+        padding-left: 17px;
+        grid-template-columns: max-content 1fr 1fr;
+        margin-bottom: 0;
+    }
+    .productsimg{
+        width: 100px;
+        height: 170px;
+    }
+    .productsimg2{
+        width: 140px;
+        height: 170px;
+        margin-left: 1px;
+        margin-bottom: 20px;
+        visibility: hidden;
+    }
+    .prices{
+        padding: 0 5px;
+    }
+    table{
+        width: 10px;
+        margin-left: 0;
+    }
+    .cake1{
+        visibility: hidden;
+    }
+    .call_us{
+        float: left;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .visit_us{
+        float: left;
+        margin-left: 10px;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 568px){
+    body{
+        padding: 0;
+    }
+    .home{
+        padding: 100px;
+    }
+    .products{
+        padding-left: 17px;
+        grid-template-columns: max-content 1fr 1fr;
+        margin-bottom: 0;
+    }
+    .productsimg{
+        width: 100px;
+        height: 170px;
+    }
+    .productsimg2{
+        width: 140px;
+        height: 170px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
+    .prices{
+        padding: 0 10px;
+    }
+    table{
+        width: 515px;
+        margin-left: 0;
+    }
+    .call_us{
+        float: left;
+        margin-left: 10px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    
+    .visit_us{
+        float: left;
+        margin-left: 10px;
+    }
+}
